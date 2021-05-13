@@ -1,0 +1,9 @@
+/* global style */
+html, body{
+    height: 100%;
+    }
+html {
+
+background-size: cover;
+overflow-y: auto !important;
+}    
