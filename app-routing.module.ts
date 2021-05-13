@@ -1,9 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TaskManagerComponent } from './task-manager/task-manager.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { CustomersComponent } from './customers/customers.component';
+import { EmpComponent } from './emp/emp.component';
+import { ServiceLinesComponent } from './service-lines/service-lines.component';
 
 const routes: Routes = [
-  {path:'',component:TaskManagerComponent}
+  {path:"",component:EmpComponent},
+  {path:"",component:ServiceLinesComponent},
+  {path:"",component:AboutUsComponent},
+  {path:"",component:CustomersComponent}
 ];
 
 @NgModule({
